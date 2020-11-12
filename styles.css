@@ -1,0 +1,62 @@
+/* Reseteo de modelo decajas */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*color: #025157;*/
+    color: green;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+header a:hover{
+    color: green;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/*.logo{
+    width: 50%;
+}*/
+nav {
+    vertical-align: middle;
+}
+
+header  ul  li{
+    display: inline-block;
+    text-align: center;
+    margin: 14px;
+}
+
+header  ul  li a{
+    text-decoration: none;
+    color: green;
+}
+
+.actions *{
+    padding: 5px;
+}
+
+.actions{
+    width: 15%;
+}
+
+.actions button:hover{
+    background-color: lightgreen;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+}
